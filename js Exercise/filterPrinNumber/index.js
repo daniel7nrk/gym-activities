@@ -2,17 +2,19 @@ function filterPrimeNumbers(num){
     let arr = [];
 
     for(let i = 0; i < num.length; i++){
+
         let count = 0;
         let cnum = num[i]
 
 
-        for(let j =1; j<= cnum; j++){
+        for(let j = 1; j<= cnum; j++){
             if(cnum % j === 0) count++;
+            if(count>2)break;
         }
+
         if(count===2) arr.push(cnum) 
     }
 
-    // console.log(arr);
     return arr
 
 }
