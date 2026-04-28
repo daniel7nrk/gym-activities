@@ -1,15 +1,7 @@
 function sum(data){
     for(let i=0;i<data.length;i++){
         let d = data[i]
-        for(let j=0; j<d.length;j++){
-            for(let k=j+1;k<d.length;k++){
-                if(d[j]>d[k]){
-                    let temp = d[j]
-                    d[j] = d[k]
-                    d[k]=temp
-                }
-            }
-        }
+        d.sort((a,b)=>(a-b))
         console.log(d);
     }
     let sum = 0

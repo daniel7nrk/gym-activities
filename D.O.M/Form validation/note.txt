@@ -1,0 +1,6 @@
+Create two input elements that only accept numeric characters. By default the values of both inputs should be equal to 0 and your job is to allow the user to enter their own in both inputs, and get the value they put in and compare them. and make sure that the first input value is equal to the second one. If the values are not the same an error message should be displayed somewhere on the page in the following way: If the first number is larger (number in the first input), show the error message ***“First number is larger”***, and when the second number is larger show the message: ***“Second number is larger”***
+
+**UI Design**
+
+- The error messages should be displayed in **red**
+- The validation should happen as the user is typing in the inputs they don’t have to click or do anything. As soon as the values are not the same a correct error message should be displayed and hidden as soon as the values are the same.

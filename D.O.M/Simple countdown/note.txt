@@ -1,0 +1,10 @@
+**Context**
+
+Create three buttons with the default 10-second countdown timer, start the countdown automatically upon user page visit, update the timer in real-time, hide the buttons after the timer ends, and display "0" as the remaining time.
+
+**Requirements:**
+
+- **Make three buttons that will help as to increase the count.**
+    - **Button one will be “+5s” that means it will add 5 sec**
+    - Next one will be “+10s”
+    - And the last one will be “+10s”
